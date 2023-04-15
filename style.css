@@ -1,0 +1,71 @@
+/*body style*/
+body{
+    background: lightgray;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+/*header style*/
+header{
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header h1{
+    margin: 0;
+    text-align: center;
+}
+
+/*post style*/
+div.container{
+    width: 500px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+
+div.post{
+    background: white;
+}
+
+/*align photo name and date*/
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: gray;
+}
+
+div.post h2{
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+}
+
+div.post img{
+    width: 100%;
+}
+
+div.post p{
+    padding: 10px 10px 10px 10px;
+    margin: 0;
+}
+
+/*page footer style*/
+.page-footer{
+    background: lightgray;
+    height: 30px;
+
+}
+
+
+
